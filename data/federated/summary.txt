@@ -1,0 +1,19 @@
+FEDERATED DATA PARTITION SUMMARY
+============================================================
+
+Total users: 1083
+Total venues: 38333
+Number of clients: 10
+
+Client Distribution:
+------------------------------------------------------------
+Client  0: 109 users, 23950 check-ins, Train: 7629, Test: 1854
+Client  1: 109 users, 23060 check-ins, Train: 7439, Test: 1798
+Client  2: 109 users, 23441 check-ins, Train: 7225, Test: 1756
+Client  3: 108 users, 22959 check-ins, Train: 8344, Test: 2030
+Client  4: 108 users, 22430 check-ins, Train: 7312, Test: 1779
+Client  5: 108 users, 19643 check-ins, Train: 7190, Test: 1742
+Client  6: 108 users, 23117 check-ins, Train: 7673, Test: 1861
+Client  7: 108 users, 23467 check-ins, Train: 6607, Test: 1598
+Client  8: 108 users, 22194 check-ins, Train: 6822, Test: 1659
+Client  9: 108 users, 23167 check-ins, Train: 7004, Test: 1702

@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & ML artifacts
+data/
+results/
+*.npy
+*.pkl
+*.zip
+
+# Large CSVs (optional)
+*.csv

@@ -1,0 +1,17 @@
+CENTRALIZED BASELINE RESULTS
+==================================================
+
+Dataset: Foursquare NYC
+Users: 1083
+Venues: 38333
+Train interactions: 73245
+Test interactions: 17779
+Sparsity: 99.78%
+Model: Matrix Factorization (NMF)
+Latent factors: 20
+
+RESULTS:
+--------------------------------------------------
+K=5: Precision=0.0500, Recall=0.0159
+K=10: Precision=0.0408, Recall=0.0266
+K=20: Precision=0.0296, Recall=0.0378
