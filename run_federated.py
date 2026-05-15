@@ -37,7 +37,7 @@ def run_federated_learning(n_clients=10, n_rounds=10):
         # Start server
         print("\n[Main] Starting server...")
         server_process = subprocess.Popen(
-            [sys.executable, "06_federated_server.py"],
+            [sys.executable, "federated_server.py"],
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
             text=True,
@@ -63,7 +63,7 @@ def run_federated_learning(n_clients=10, n_rounds=10):
             print(f"[Main] Starting client {client_id}...")
 
             client_process = subprocess.Popen(
-                [sys.executable, "06_federated_client.py", str(client_id)],
+                [sys.executable, "federated_client.py", str(client_id)],
                 stdout=subprocess.PIPE,
                 stderr=subprocess.STDOUT,
                 text=True,
@@ -122,7 +122,7 @@ def run_federated_learning(n_clients=10, n_rounds=10):
 
 if __name__ == "__main__":
     # Change to project directory
-    project_dir = '/Users/anuragsrivastava/Documents/anurag/fedpoi_thesis'
+    project_dir = '/Users/srivanur/Documents/fedpoi_thesis'
     os.chdir(project_dir)
     print(f"Working directory: {os.getcwd()}\n")
 
